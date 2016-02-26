@@ -1,0 +1,46 @@
+$get-path-to-app-components-root : "./../../../app/components";
+
+$min-page-size: 310px;
+
+// Size
+$size-element-height: 2.75em;
+$size-element-margin: 2em;
+$size-section-spacing: 3em;
+$size-section-spacing-small: 1.5em;
+$size-menu: 25em;
+
+// Font
+$font-family: ('Source Sans Pro', Helvetica, sans-serif);
+$font-family-fixed: ('Courier New', monospace);
+$font-family-heading: ('Raleway', Helvetica, sans-serif);
+$font-weight: 400;
+$font-weight-bold: 700;
+$font-weight-heading: 400;
+$font-weight-heading-bold: 800;
+$font-weight-heading-extrabold:	900;
+$font-kerning-heading: 0.25em;
+
+// Palette. -- Change these colors to effect color scheme of app
+//Background
+$palette-bg:#FFFFFF;
+$palette-bg-dark:#272c30;
+$palette-bg-medium:#30363c;
+$palette-bg-light:#353c42;
+$palette-bg-alt: #D30000;
+
+//Foreground
+$palette-fg:#FFFFFF;
+$palette-fg-dark-compliment: #FFCDD2;
+$palette-fg-alt:#646464;
+$palette-fg-bold: #3c3b3b;
+$palette-fg-light:#aaaaaa;
+//Border
+$palette-border:rgba(160,160,160,0.3);
+$palette-border-bg:rgba(160,160,160,0.075);
+$palette-border-alt:rgba(160,160,160,0.65);
+//Accents
+$palette-accent: #C91300;
+
+
+
+

@@ -1,0 +1,30 @@
+tabs-dynamic-height {
+  background-color: transparent !important;
+  md-tabs {
+    background: #f6f6f6;
+    border: 1px solid #e1e1e1;
+    md-tabs-wrapper {
+      background: white;
+    }
+    md-content {
+      background-color: transparent;
+    }
+  }
+  h1:first-child {
+    margin-top: 0;
+  }
+}
+
+.active{
+    color: #D30000;    
+    background-color: #272c30;
+    border-bottom: 2px solid #D30000;
+}
+
+.sidebar-actions{
+    background-color: #2d3237;
+}
+
+.action-cell{
+    text-align: center;
+}

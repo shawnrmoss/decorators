@@ -1,0 +1,25 @@
+<div class="row sidebar-actions" >
+    <div class="col-xs-4 action-cell" [class.active]="activeTab === 1">
+        <button md-button class="md-icon-button" aria-label="More" (click)="setActiveTab(1)" >
+            <i md-icon>home</i>
+        </button>       
+    </div>
+    <div class="col-xs-4 action-cell" [class.active]="activeTab === 2">       
+        <button md-button class="md-icon-button" aria-label="More" (click)="setActiveTab(2)" [class.active]="activeTab === 2" >
+            <i md-icon>warning</i>
+        </button>       
+    </div>
+    <div class="col-xs-4 action-cell" [class.active]="activeTab === 3"  >                
+        <button md-button class="md-icon-button" aria-label="More" (click)="setActiveTab(3)"  >
+            <i md-icon>settings</i>
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        Here
+    </div>
+</div>
+
+

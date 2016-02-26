@@ -1,0 +1,44 @@
+
+
+.green {
+  color: greenyellow;
+}
+
+.userName{
+    color: black;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:30px !important; 
+    padding-bottom:30px !important;
+    height: 75px;
+}
+
+.navbar-toggle{
+    margin-top: 20px;
+}
+
+.navbar{
+    background-color: #272c30;
+    border:0px;
+    border-radius: 0px;    
+    margin-bottom: 0px;    
+     border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+   
+    min-height: 75px;
+}
+
+.loginDisplay{
+    color: black;
+}
+
+.iconContainer{
+    text-align: center;
+}
+
+.viewTitle{
+    color: #FFFFFF;
+    padding-top:25px;
+}
